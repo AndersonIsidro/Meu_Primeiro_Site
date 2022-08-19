@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="../CSS/responsivo.css">
     <title>Fale Conosco</title>
 </head>
-<body style="text-align: center;">
+<style>
+    .formulario{
+        padding-top: 300px;
+        margin-left: 100px;
+        color:#180F4A;
+    }
+    .name , .email{
+        padding-right: 20%;
+    }
+    
+
+</style>
+<body >
     <nav class="navbar">
         <div class="logo">
             
@@ -17,22 +29,21 @@
         <div class="menu">
             <a href="../index.html">Home</a>
             <a href="../index.html">Sobre Nós</a>
-            <a href="#">Serviços</a>           
+            <a href="../index.html#svc">Serviços</a>           
         </div>
         </nav>
-        <header class="header">
-            <div class="headline">
-                <h2 style="padding-top:100px; margin-left: -130px;">Digite seu Nome Completo:
-                <input style="padding-right:100px;" type="text" class="text1">
-                </h2>   
-                <h2 style="padding-top:10px; margin-left: -320px;">Digite seu Email:
-                <input type="email" class="email">
-                </h2>
-                <h2 style="padding-top:10px; margin-left: 20px;">
-                    <input style="padding-right: 500px;position: i; padding-bottom: 200px"type="textarea" id="conteudo"class="conteudo" placeholder="Digite sua Mensagem">
-                    
-                </h2>
-                <a style="margin-top: 10px;margin-left: 580px;" href="#" class="contact-btn">Enviar</a>
+        <header class="formulario">
+            <div class="form">
+                <h1 >Digite seu Nome Completo:
+                <input type="text" class="name" required>
+                </h1>   
+                <h1 >Digite seu Email:
+                <input type="email" class="email" required>
+                </h1>
+                <h1>
+                    <textarea name="" id="200" cols="200" rows="10" placeholder="Digite sua mensagem aqui!" required></textarea>
+                </h1>
+                <a href="#" class="contact-btn">Enviar</a>
            
             
         </header>
