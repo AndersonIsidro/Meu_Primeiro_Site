@@ -28,7 +28,7 @@ body{
 .logo h1{
      font-family: 'Lobster', cursive;
      color:#180F4A;
-     font-size: 38px;
+     font-size: 60px;
      text-shadow:1px 1px 1px #cc5c85;
      padding-bottom: 10px;  
  }
@@ -87,12 +87,15 @@ body{
     font-size: 20px;
     color: #180F4A;
     padding: 0;
-    margin: 0;
+    display: inline-block;
+      text-align: center;
+      padding-left: 20%;
  }
 
  .headline p{
     color: #7f7f81;
     text-align: center;
+    padding-left: 7%;
  }
 
  .contact-btn{
@@ -103,12 +106,14 @@ body{
     color: #180F4A;
     padding: 20px;
     text-transform: uppercase;
-    margin-left: 170px;
+    margin-left: 40%;
+    
  }
 
  .contact-btn:hover{
     background: #180F4A;
     color: #FF2978;
+  
     
  }
 
