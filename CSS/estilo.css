@@ -78,8 +78,9 @@ body{
  }
 
  .headline{
-    margin-left: 2%;
+    margin-left: 10%;
     flex:40%;
+    margin-top: 150px;
  }
 
  .headline h2{
@@ -88,14 +89,15 @@ body{
     color: #180F4A;
     padding: 0;
     display: inline-block;
-      text-align: center;
-      padding-left: 20%;
+    text-align: center;
+    padding-left: 18%;
+      
  }
 
  .headline p{
     color: #7f7f81;
     text-align: center;
-    padding-left: 7%;
+    padding-left: 0%;
  }
 
  .contact-btn{
