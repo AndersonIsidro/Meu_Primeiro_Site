@@ -219,3 +219,12 @@ section h2{
    width: 300px;
    height: 400px;
 }
+
+.formulario{
+   padding-top: 300px;
+   margin-left: 100px;
+   color:#180F4A;
+}
+.name , .email{
+   padding-right: 20%;
+}
