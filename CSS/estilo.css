@@ -88,9 +88,7 @@ body{
     font-size: 20px;
     color: #180F4A;
     padding: 0;
-    
-    text-align: center;
-    padding-left: 18%;
+    padding-left: 22%;
       
  }
 
@@ -99,7 +97,11 @@ body{
     text-align: center;
     padding-left: 0%;
  }
-
+   #resposta{
+      margin-left:35% ;
+      font-size: 20px;
+      color: green;
+}
  .contact-btn{
     display: inline-block;
     text-decoration: none;
